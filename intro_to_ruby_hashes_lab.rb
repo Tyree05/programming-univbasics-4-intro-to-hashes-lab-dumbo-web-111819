@@ -1,9 +1,15 @@
 def new_hash
-  # return an empty hash
+  return Hash.new
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  Anime_Attacks = {
+    :Naruto => "Rasengan",
+    :Ichigo => "Getusuga Tensho",
+    :Goku => "Kamehameha",
+    :Deku => "Delaware Smash"
+    }
+  return Anime_Attacks
 end
 
 def pioneer
