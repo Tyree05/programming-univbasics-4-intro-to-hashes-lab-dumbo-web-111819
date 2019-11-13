@@ -3,13 +3,12 @@ def new_hash
 end
 
 def my_hash
-  # Anime_Attacks = { :Naruto => "Rasengan", :Ichigo => "Getusuga Tensho", :Goku => "Kamehameha",
-  #   :Deku => "Delaware Smash" }
   return { :Naruto => "Rasengan", :Ichigo => "Getusuga Tensho", :Goku => "Kamehameha", :Deku => "Delaware Smash" }
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  my_girl = { :name => "Grace Hopper" }
+  return my_girl[:name]
 end
 
 def id_generator
