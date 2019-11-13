@@ -5,7 +5,7 @@ end
 def my_hash
   # Anime_Attacks = { :Naruto => "Rasengan", :Ichigo => "Getusuga Tensho", :Goku => "Kamehameha",
   #   :Deku => "Delaware Smash" }
-  # return Anime_Attacks
+  return { :Naruto => "Rasengan", :Ichigo => "Getusuga Tensho", :Goku => "Kamehameha", :Deku => "Delaware Smash" }
 end
 
 def pioneer
