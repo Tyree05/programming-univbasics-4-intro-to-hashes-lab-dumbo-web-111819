@@ -15,7 +15,7 @@ return name = { :id => 5}
 end
 
 def my_hash_creator(key, value)
-  return name_a = { :key => value }
+  return name_a = { key => value }
 end
 
 def read_from_hash(hash, key)
